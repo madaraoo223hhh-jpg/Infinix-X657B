@@ -50,9 +50,9 @@ TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X657B
 TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
 TARGET_PREBUILT_KERNEL := device/infinix/Infinix-X657B/prebuilt/kernel
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
+TARGET_PREBUILT_DTB := device/infinix/Infinix-X657B/prebuilt/dtb.img
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-BOARD_PREBUILT_DTBOIMAGE := device/infinix/Infinix-X657B/prebuilt/dtbo.img
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 endif
 
 # Partitions
