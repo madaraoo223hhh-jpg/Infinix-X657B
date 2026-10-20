@@ -12,7 +12,7 @@ FOX_REPLACE_BUSYBOX_PS := 1
 
 # Device identity variables
 PRODUCT_DEVICE := Infinix-X657B
-PRODUCT_NAME := fox_Infinix-X657B
+PRODUCT_NAME := fox_Infinix_X657B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix Smart 5
 PRODUCT_MANUFACTURER := infinix
