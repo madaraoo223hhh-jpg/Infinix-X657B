@@ -53,6 +53,7 @@ TARGET_PREBUILT_KERNEL := device/infinix/Infinix-X657B/prebuilt/kernel
 TARGET_PREBUILT_DTB := device/infinix/Infinix-X657B/prebuilt/dtb.img
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_PREBUILT_DTBOIMAGE := device/infinix/Infinix-X657B/prebuilt/dtbo.img
 endif
 
 # Partitions
