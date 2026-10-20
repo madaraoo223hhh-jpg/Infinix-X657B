@@ -9,5 +9,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/fox_Infinix-X657B.mk
 
 COMMON_LUNCH_CHOICES := \
-    fox_Infinix-X657B-eng \
-    fox_Infinix-X657B-userdebug
+    fox_Infinix-X657B-userdebug \
+    fox_Infinix-X657B-user
