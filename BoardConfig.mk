@@ -106,9 +106,12 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 OF_SCREEN_H := 1600
 OF_STATUS_BAR_HEIGHT := 80
 
-# Encryption / Decryption
+# Encryption & Decryption (Fixes scrambled filenames)
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 BOARD_USES_METADATA_PARTITION := true
 TW_USE_FSCRYPT_POLICY := 2
+
+# Fastbootd Support (Fixes fastbootd mode)
+TW_INCLUDE_FASTBOOTD := true
